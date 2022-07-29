@@ -29,7 +29,6 @@ function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
   return str;
-  
 }
 
 function suma(x, y) {
@@ -37,7 +36,6 @@ function suma(x, y) {
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
   return x + y;
-  
 }
 
 function resta(x, y) {
@@ -62,7 +60,7 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if ( x == y) {
+  if (x == y) {
     return true
   }
   return false
@@ -72,7 +70,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if ( str1.length == str2.length ) {
+  if (str1.length == str2.length) {
     return true
   }
   return false
@@ -82,7 +80,7 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  if ( num < 90 ) {
+  if (num < 90) {
     return true;
   }
   return false;
@@ -92,7 +90,7 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  if ( num > 50 ) {
+  if (num > 50) {
     return true;
   }
   return false;
@@ -102,14 +100,13 @@ function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
   return x % y;
-  
 }
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if ( num % 2 == 0 ) {
+  if (num % 2 == 0) {
     return true;
   }
   return false;
@@ -119,7 +116,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if ( num % 2 != 0 ) {
+  if (num % 2 != 0) {
     return true;
   }
   return false;
@@ -130,7 +127,6 @@ function elevarAlCuadrado(num) {
   // ojo: No es raiz cuadrada!
   // Tu código:
   return num * num;
-  
 }
 
 function elevarAlCubo(num) {
@@ -161,7 +157,7 @@ function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
   //find number random on javascript.
-    return Math.random()*1;
+  return Math.random()*1;
 }
 
 function esPositivo(numero) {
@@ -169,9 +165,9 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if ( numero > 0 ) {
+  if (numero > 0) {
     return 'Es positivo';
-  } else if ( numero < 0 ) {
+  } else if (numero < 0) {
     return 'Es negativo';
   } 
   return false
@@ -233,12 +229,11 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if ( "aeiouAEIOU".indexOf(letra) != -1 ) {
+  if ("aeiouAEIOU".indexOf(letra) != -1) {
     return "Es vocal";
   } 
   return "Dato incorrecto";
 }
-
 
 
 // No modificar nada debajo de esta línea
